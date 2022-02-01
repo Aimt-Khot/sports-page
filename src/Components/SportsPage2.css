@@ -1,0 +1,327 @@
+/* Athleats css */
+.img-container{
+  width: 100%;
+  height: 400px;
+  margin-top: 15px;
+  padding: auto;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'popinns';
+  font-weight: 800;
+}
+.card-container{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin:10px;
+}
+.card{
+  width: 250px;
+  height: 300px;
+  padding: 5px;
+}
+.card-img-top{
+  width: auto;
+  height: 300px;  
+}
+.card-title{
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: 'popinns';
+}
+.card-text{
+  text-align: justify;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  font-family: 'popinns';
+}
+@media screen and (max-width: 800px) {
+  .img-container{
+    width: 100%;
+    height: 350px;
+  }
+  .title{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'popinns';
+    font-weight: 700;
+  }
+  .card-container{
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+    margin:10px;
+  }
+  .card{
+    width: auto;
+    height: 250px;
+    padding: 5px;
+  }
+  .card-img-top{
+    width: auto;
+    height: 250px;  
+  }
+  .card-title{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'popinns';
+  }
+  .card-text{
+    text-align: justify;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    font-family: 'popinns';
+  }
+}
+/* Grid css */
+.top-container {
+  display: grid;
+  grid-gap: 30px;
+  min-height: 500px;
+  grid-template-areas:
+    "top-box-a  top-box-a top-box-b "
+    "top-box-a  top-box-a top-box-b "
+    "top-box-a  top-box-a top-box-c ";
+  color: #fff;
+  margin: 10px;
+ }
+ .top-container h1{
+   padding: 5px;
+ }
+ .top-box-a {
+   grid-area: top-box-a;
+   background: url(../Images/Image1.png);
+   background-size: cover;
+   background-position: center;
+   padding: none;
+   border-radius: 8px;
+   font-size: 40px;
+   font-family: 'popinns';
+   font-weight: 800;
+ }
+ .top-box-b {
+   grid-area: top-box-b;
+   background: url(../Images/Image3.png);
+   background-size: cover;
+   padding: none;
+   color: black;
+   border-radius: 8px;
+   font-size: 40px;
+   font-family: 'popinns';
+   font-weight: 800;
+ }
+ .top-box-c {
+   grid-area: top-box-c;
+   background: url(../Images/Image3.png);
+   background-size: cover;
+   padding: none;
+   border-radius: 8px;
+   font-size: 40px;
+   font-family: 'popinns';
+   font-weight: 800;
+ }
+ .toplinks {
+   color: white;
+   padding: 5px;
+   font-size: small;
+   display: block;
+   text-align: start;
+ }
+ .newarrival-container {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   background-color: white;
+   margin: 10px;
+ }
+ .newarrival-container img{
+   width: 230px;
+   height: auto;
+   padding: 5px;
+   box-sizing: border-box;
+   border-radius: 8px;
+ }
+ .newarrival-container h2{
+   font-size: 18px;
+   font-family: 'popinns';
+   font-weight: 300;
+   color: rgb(5, 5, 5);
+   bottom: 5%;
+   padding-left: 5px;
+   border-radius: 8px;
+   background-color: rgb(5, 5, 5 ,0.2);
+ }
+ .item-5 {
+   width:100%;
+   height: 180px;
+   background: url(../Images/Image11.png);
+   background-position: center;
+   border-radius: 8px;
+   color: white;
+   font-family: 'popinns';
+   padding: none;
+ } 
+ 
+ @media (max-width: 1000px) {
+   .top-container {
+    grid-template-areas:
+    "top-box-a top-box-a"
+    "top-box-a top-box-a"
+    "top-box-a top-box-a"
+    "top-box-b top-box-b"
+    "top-box-b top-box-b"
+    "top-box-c top-box-c"
+   }
+   .newarrival-container img{
+    width: 200px;
+    height: auto;
+   }
+ }
+
+/*brands css */
+.brands-container {
+ background-color: #eee;
+ margin: 0;
+ padding: 0;
+ align-items: center;
+}
+.brands-title {
+ text-align: center;
+ padding-top: 10px;
+}
+.owl-carosel {
+ display: flex;
+}
+.container-slider {
+ margin-top: 30px;
+ padding-top: 10px;
+}
+.container-a {
+ justify-content: center;
+ align-items: center;
+}
+.brands-button {
+ margin-top: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.brands-button button {
+ width: 150px;
+ height: auto;
+ background: #000000;
+ padding: 8px;
+ margin: 5px;
+ font-family: "popinns", sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ color: #fcfcfc;
+ border-radius: 5px;
+ border: none;
+ letter-spacing: 0.2px;
+}
+.brands-button button:hover {
+ background: rgb(70, 70, 70);
+}
+.brands-container h1{
+ font-size: 40px;
+ font-weight: 700;
+ font-family: 'popinns';   
+}
+
+ /* community css */
+ .community-container {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 30px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+.charity{
+  width: 50%;
+  margin-top: 50px;
+  height: 250px;
+  text-align: start;
+  border-right:3px solid black ;
+  padding: none;
+}
+.community{
+  width: 50%;
+  margin-top: 50px;
+  height: 250px;
+  text-align: end;
+  margin-left: 5px;
+  padding: none;
+}
+.community-container h1{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'popinns';   
+}
+.community-container p{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'popinns';  
+}
+.community-container button {
+  width: 130px;
+  height: auto;
+  background: #000000;
+  padding: 8px;
+  font-family: "popinns", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fcfcfc;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 0.2px;
+}
+.community-container button:hover {
+  background: rgb(70, 70, 70);
+}
+@media screen and (max-width: 780px) {
+  .community-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .charity{
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    text-align: center;
+    border: none;
+  }
+  .community{
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .community-container h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'popinns';   
+  }
+  .community-container p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'popinns';  
+  }
+}
